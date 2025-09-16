@@ -4,9 +4,13 @@
         "Bharati",
         "Bhubaneswar",
         "Biswa",
+        "FAISS",
         "Kumar",
+        "Langchain",
+        "Langgraph",
         "Mahapatra",
         "Odia",
-        "Odisha"
+        "Odisha",
+        "Pydantic"
     ]
 }

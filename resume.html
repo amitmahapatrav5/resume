@@ -19,7 +19,7 @@
     <meta property="og:url" content="127.0.0.1:5500/resume.html">
 
     <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
-    <meta property="og:image" content="127.0.0.1:5500/img/default-image.png">
+    <meta property="og:image" content="127.0.0.1:5500/img/passport_size_image_white_bg_formal.jpg">
 
     <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
     <meta property="og:image:alt" content="Amit Kumar Mahapatra Profile Image">
@@ -114,6 +114,34 @@
           
             <section>
               <h2 class="section-heading">Projects</h2>
+              
+                <section>
+                  <h3>
+                    
+                      EHS&amp;S Incident Reporting Gen AI Chatbot - MVP 1
+                    
+                  </h3>
+                  <p>Developed a GenAI-powered chatbot system to replace traditional form-based data entry for Environmental Health, Safety and Sustainability(EHS&amp;S) incident reporting, reducing data collection rework and licensing costs while improving user engagement through conversational AI interface.</p>
+                  
+                    <ul>
+                      <li>Engineered RESTful API to process free-text user inputs and deliver summarized, structured responses, enhancing data quality and consistency for downstream processing, achieving &lt;2-second response time per API interaction and ensuring real-time user experience.</li><li>Leveraged Langchain framework to orchestrate OpenAI-4o LLM integration, enabling intelligent context summarization and natural language understanding from unstructured user inputs, supporting &gt;5,000 Good Saves per month adoption rate through improved user accessibility.</li><li>Implemented Guardrail AI validation pipeline to ensure AI safety through multi-layer content filtering, mitigating risks of hallucinations, bias, and toxic content generation in LLM responses, maintaining &lt;5% data error rate through chatbot-driven validation and quality checks.</li><li>Developed robust audit system using FastAPI and SQLAlchemy ORM, implementing Pydantic models for type-safe serialization/deserialization of conversation histories, ensuring compliance and traceability requirements while contributing to ~70% reduction in license-related costs by eliminating dependency on traditional form-based systems.</li><li>Integrated submission API with Internal System to automate Good Save record Draft creation, streamlining SME review and reducing manual data entry overhead, achieving 90% successful API submission rate for seamless data flow to backend systems.</li>
+                    </ul>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      EHS&amp;S Incident Reporting Gen AI Chatbot - MVP 2 - POC
+                    
+                  </h3>
+                  <p>Prototyped the GenAI chatbot enhancement featuring vector similarity search against validated Golden Records database, implementing dynamic clarifying question generation to improve data collection accuracy, and expanding incident classification capabilities to support multiple EHS&amp;S incident types including Good Save and Near Miss reporting scenarios.</p>
+                  
+                    <ul>
+                      <li>Implemented vector embeddings using ChromaDB vector database to index and retrieve Golden Records, enabling semantic similarity search with sub-second query performance for contextual reference matching during incident reporting.</li><li>Developed intelligent clarifying question generation system leveraging Langchain&#39;s retrieval-augmented generation (RAG) architecture, dynamically formulating context-specific questions based on similar Golden Records to capture comprehensive incident details and reduce ambiguity in user submissions.</li><li>Built automated incident classification engine utilizing OpenAI-4o model to accurately categorize incidents across multiple taxonomy levels, distinguishing between Good Save, Near Miss, and other EHS&amp;S event types with high precision.</li><li>Optimized prompt engineering strategies implementing few-shot learning techniques and structured output templates, enabling context-aware response generation with improved factual accuracy and consistent formatting for downstream system integration.</li>
+                    </ul>
+                  
+                </section>
               
                 <section>
                   <h3>

@@ -1,11 +1,11 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Amit Kumar Mahapatra",
+  "label": "Generative AI Engineer",
+  "image_path": "img/passport_size_image_white_bg_formal.jpg",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "mahapatraarhas200@gmail.com",
+    "phone": "+91-8114-362199",
+    "location": "Bhubaneswar, Odisha, India"
   },
   "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
   "base_url": "127.0.0.1:5500",
@@ -16,22 +16,22 @@
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/amitmahapatrav5/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "GitHub",
+      "url": "https://github.com/amitmahapatrav5",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Tata Consultancy Services",
+      "position": "IT Analyst",
+      "url": "https://www.tcs.com/",
+      "start_date": "08/10/2020",
       "end_date": "Present",
       "summary": "Short summary about present job and what the position entails",
       "highlights": [
@@ -39,24 +39,32 @@
         "Second Duty of Current Job",
         "Third Duty of Current Job"
       ]
-    },
-    {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
-      ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
+      "title": "EHS&S Incident Reporting Gen AI Chatbot - MVP 1",
+      "summary": "Developed a GenAI-powered chatbot system to replace traditional form-based data entry for Environmental Health, Safety and Sustainability(EHS&S) incident reporting, reducing data collection rework and licensing costs while improving user engagement through conversational AI interface.",
+      "highlights": [
+        "Engineered RESTful API to process free-text user inputs and deliver summarized, structured responses, enhancing data quality and consistency for downstream processing, achieving <2-second response time per API interaction and ensuring real-time user experience.",
+        "Leveraged Langchain framework to orchestrate OpenAI-4o LLM integration, enabling intelligent context summarization and natural language understanding from unstructured user inputs, supporting >5,000 Good Saves per month adoption rate through improved user accessibility.",
+        "Implemented Guardrail AI validation pipeline to ensure AI safety through multi-layer content filtering, mitigating risks of hallucinations, bias, and toxic content generation in LLM responses, maintaining <5% data error rate through chatbot-driven validation and quality checks.",
+        "Developed robust audit system using FastAPI and SQLAlchemy ORM, implementing Pydantic models for type-safe serialization/deserialization of conversation histories, ensuring compliance and traceability requirements while contributing to ~70% reduction in license-related costs by eliminating dependency on traditional form-based systems.",
+        "Integrated submission API with Internal System to automate Good Save record Draft creation, streamlining SME review and reducing manual data entry overhead, achieving 90% successful API submission rate for seamless data flow to backend systems."
+      ]
+    },
+    {
+      "title": "EHS&S Incident Reporting Gen AI Chatbot - MVP 2 - POC",
+      "summary": "Prototyped the GenAI chatbot enhancement featuring vector similarity search against validated Golden Records database, implementing dynamic clarifying question generation to improve data collection accuracy, and expanding incident classification capabilities to support multiple EHS&S incident types including Good Save and Near Miss reporting scenarios.",
+      "highlights": [
+        "Implemented vector embeddings using ChromaDB vector database to index and retrieve Golden Records, enabling semantic similarity search with sub-second query performance for contextual reference matching during incident reporting.",
+        "Developed intelligent clarifying question generation system leveraging Langchain's retrieval-augmented generation (RAG) architecture, dynamically formulating context-specific questions based on similar Golden Records to capture comprehensive incident details and reduce ambiguity in user submissions.",
+        "Built automated incident classification engine utilizing OpenAI-4o model to accurately categorize incidents across multiple taxonomy levels, distinguishing between Good Save, Near Miss, and other EHS&S event types with high precision.",
+        "Optimized prompt engineering strategies implementing few-shot learning techniques and structured output templates, enabling context-aware response generation with improved factual accuracy and consistent formatting for downstream system integration."
+      ]
+    },
+    {
+      "title": "RAG Application",
       "summary": "Short summary about my first project",
       "url": "https://sample.com",
       "highlights": [
@@ -80,7 +88,7 @@
       ]
     },
     {
-      "title": "My Second Project",
+      "title": "Backend Application using FastAPI",
       "summary": "Short summary about my second project",
       "url": "https://sample.com",
       "highlights": [
@@ -104,109 +112,42 @@
       ]
     }
   ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "Silicon Institute of Technology",
+      "location": "Bhubaneswar, Odisha, India",
+      "url": "https://silicon.ac.in/",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Bachelor of Technology"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
-    },
-    {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "honors": [
+        "Outstanding Student Award",
+        "Dean's List"
+      ],
+      "gpa_cumulative": "8.85",
+      "graduation_date": "31/07/2020"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
+      "name": ["Generative AI", "Langchain", "Langgraph", "RAG", "Context Engineering", "ChromaDB", "Pinecone", "FAISS", "MCP"],
       "proficiency": 100,
       "proficiency_label": "Proficiency Level"
     },
     {
-      "name": "My Second Skill",
+      "name": ["Backend Engineering", "RESTful API", "gRPC", "Web Sockets", "FastAPI", "SQLAlchemy", "PostgreSQL", "Docker"],
       "proficiency": 80,
       "proficiency_label": "Proficiency Level"
-    }
-  ],
-  "interests": [
-    {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
-    },
-    {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Professional Working Proficiency"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "language": "Odia",
+      "fluency": "Native speaker"
     }
   ],
   "references": [
