@@ -7,7 +7,7 @@
     "phone": "+91-8114-362199",
     "location": "Bhubaneswar, Odisha, India"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Generative AI • RAG • LangChain | Agentic AI • LangGraph • MCP | Traditional AI • Deep Learning • PyTorch | Backend • Python • FastAPI | Frontend • React • TypeScript",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -78,12 +78,17 @@
       ]
     },
     {
-      "title": "Backend Application using FastAPI",
-      "summary": "Short summary about my second project",
+      "title": "API Development and Integration using FastAPI, SQLAlchemy, and OAuth 2.0",
+      "summary": "Designed and implemented a **secure, high-performance REST API** using **FastAPI** for document retrieval and delivery, leveraging **SQLAlchemy ORM** for database operations, **Pydantic** for data validation, and **OAuth 2.0** for authentication. Deployed the solution on **IIS** with robust logging and auditing mechanisms.",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Developed REST API endpoints using FastAPI to enable secure and efficient document retrieval and delivery.",
+        "Implemented **OAuth 2.0 authentication** with **60-minute token validity** for secure API access.",
+        "Utilized **SQLAlchemy ORM** for database interactions, improving maintainability, reducing boilerplate SQL, and enabling **database-agnostic** operations.",
+        "Applied **Pydantic models** for request and response validation, ensuring **data integrity** and **type safety**.",
+        "Configured **API hosting on IIS** for **enterprise-grade deployment** and **scalability**.",
+        "Designed and implemented a **structured logging system** using **Python's logging module** with `TimedRotatingFileHandler`, capturing request/response details, status codes, and error traces for **audit and troubleshooting**.",
+        "Created **YAML-based logging configuration** for modular and maintainable log management, including log rotation and multi-level loggers for API, DB, and utility modules.",
+        "Implemented **error handling** and **response standardization** with appropriate **HTTP status codes** for robust client-server communication."
       ]
     }
   ],
