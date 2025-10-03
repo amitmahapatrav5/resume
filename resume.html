@@ -146,13 +146,13 @@
                 <section>
                   <h3>
                     
-                      <a href="https://sample.com">RAG Application</a>
+                      Pluggable Multimodal RAG for Secure Knowledge Retrieval
                     
                   </h3>
-                  <p>Short summary about my first project</p>
+                  <p>Developed a pluggable Retrieval-Augmented Generation (RAG) framework that avoids costly fine-tuning by leveraging Hugging Face pre-trained models with ChromaDB vector search, laying the foundation for multi-hop reasoning and grounded answers in later phases.</p>
                   
                     <ul>
-                      <li>First Highlight of Project One</li><li>Second Highlight of Project One</li><li>Third Highlight of Project One</li>
+                      <li>Implemented document ingestion for structured (.csv, .xls, .json) and unstructured (.txt, .md, .pdf, .docx, .pptx) formats using **LangChain loaders**, ensuring modular support for future plug-ins.</li><li>Built preprocessing pipeline with **LangChain Text Splitters** (Recursive, Character, Markdown, NLTK, spaCy) to dynamically generate high-quality chunks tailored to file types.</li><li>Integrated **Hugging Face Embeddings** for vectorization and persisted results in **ChromaDB**, enabling semantic similarity search as the backbone of the RAG loop.</li><li>Designed modular ingestion architecture with caching, loaders, splitters, enrichers, and vector store executors, improving maintainability and scalability.</li><li>Exposed ingestion and retrieval workflows via **FastAPI** endpoints, routed through an API Gateway with service-specific APIs (SQL metadata API, content API, and GenAI query API).</li><li>Implemented query handling pipeline: **Retriever → PromptTemplate → Hugging Face LLM (ChatHuggingFace) → StrOutputParser**, enforcing concise, grounded answers strictly from retrieved context.</li><li>Improved retrieval reliability and reduced implementation risk by adopting pre-trained **Hugging Face models** with vector search instead of costly fine-tuning, enabling incremental upgrades in later phases.</li><li>Established secure, team-specific retrieval boundaries by embedding ownership metadata, preventing cross-team data exposure while improving knowledge accessibility.</li>
                     </ul>
                   
                 </section>

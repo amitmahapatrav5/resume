@@ -11,7 +11,7 @@
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
+      "label": "Portfolio",
       "url": "https://sample.com",
       "svg_path": "img/globe.svg"
     },
@@ -64,51 +64,26 @@
       ]
     },
     {
-      "title": "RAG Application",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "Pluggable Multimodal RAG for Secure Knowledge Retrieval",
+      "summary": "Developed a pluggable Retrieval-Augmented Generation (RAG) framework that avoids costly fine-tuning by leveraging Hugging Face pre-trained models with ChromaDB vector search, laying the foundation for multi-hop reasoning and grounded answers in later phases.",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
-        }
+        "Implemented document ingestion for structured (.csv, .xls, .json) and unstructured (.txt, .md, .pdf, .docx, .pptx) formats using **LangChain loaders**, ensuring modular support for future plug-ins.",
+        "Built preprocessing pipeline with **LangChain Text Splitters** (Recursive, Character, Markdown, NLTK, spaCy) to dynamically generate high-quality chunks tailored to file types.",
+        "Integrated **Hugging Face Embeddings** for vectorization and persisted results in **ChromaDB**, enabling semantic similarity search as the backbone of the RAG loop.",
+        "Designed modular ingestion architecture with caching, loaders, splitters, enrichers, and vector store executors, improving maintainability and scalability.",
+        "Exposed ingestion and retrieval workflows via **FastAPI** endpoints, routed through an API Gateway with service-specific APIs (SQL metadata API, content API, and GenAI query API).",
+        "Implemented query handling pipeline: **Retriever → PromptTemplate → Hugging Face LLM (ChatHuggingFace) → StrOutputParser**, enforcing concise, grounded answers strictly from retrieved context.",
+        "Improved retrieval reliability and reduced implementation risk by adopting pre-trained **Hugging Face models** with vector search instead of costly fine-tuning, enabling incremental upgrades in later phases.",
+        "Established secure, team-specific retrieval boundaries by embedding ownership metadata, preventing cross-team data exposure while improving knowledge accessibility."
       ]
     },
     {
       "title": "Backend Application using FastAPI",
       "summary": "Short summary about my second project",
-      "url": "https://sample.com",
       "highlights": [
         "First Highlight of Project Two",
         "Second Highlight of Project Two",
         "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
       ]
     }
   ],
@@ -130,7 +105,12 @@
   ],
   "skills": [
     {
-      "name": ["Generative AI", "Langchain", "Langgraph", "RAG", "Context Engineering", "ChromaDB", "Pinecone", "FAISS", "MCP"],
+      "name": ["Generative AI", "RAG", "Langchain", "ChromaDB", "FAISS"],
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": ["Agentic AI", "Langgraph", "MCP"],
       "proficiency": 100,
       "proficiency_label": "Proficiency Level"
     },
@@ -148,18 +128,6 @@
     {
       "language": "Odia",
       "fluency": "Native speaker"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
     }
   ]
 }
